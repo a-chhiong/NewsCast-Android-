@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_core_edit_list_adapter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_title_edit_list_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:minLines="2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_parent_edit_list_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="start"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_category_edit_list_adapter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_pubdate_edit_list_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="end"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="@color/colorHeadBar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:paddingTop="12dp"
+            android:paddingBottom="15dp"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:gravity="center_vertical"
+            android:text="@string/app_name"
+            android:textColor="@color/colorHeadFront"/>
+
+        <Spinner
+            android:id="@+id/spn_time_list"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@null"/>
+
+        <!--ImageView
+            android:id="@+id/iv_sort_time_list"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:contentDescription="@string/button_sort"
+            app:srcCompat="@drawable/ic_sort"
+            android:layout_margin="15dp"/-->
+
+        <ImageView
+            android:id="@+id/iv_reload_time_list"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:contentDescription="@string/button_reload"
+            app:srcCompat="@drawable/ic_refresh"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/lv_time_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_time_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_margin="5dp" />
+
+        <ProgressBar
+            android:id="@+id/pb_time_list"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerInParent="true"
+            android:layout_margin="5dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal"
+        android:background="@color/colorButtonBar">
+
+        <ImageView
+            android:id="@+id/iv_channel_time_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:contentDescription="@string/tab_channel"
+            app:srcCompat="@drawable/ic_dashboard_pale"/>
+
+        <ImageView
+            android:id="@+id/iv_calendar_time_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:contentDescription="@string/tab_calendar"
+            app:srcCompat="@drawable/ic_view_day"/>
+
+        <ImageView
+            android:id="@+id/iv_favourite_time_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:contentDescription="@string/tab_favourite"
+            app:srcCompat="@drawable/ic_featured_play_list_pale"/>
+
+        <ImageView
+            android:id="@+id/iv_person_time_list"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingTop="5dp"
+            android:contentDescription="@string/tab_person"
+            app:srcCompat="@drawable/ic_person_pale"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/colorButtonBar">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="2dp"
+            android:text="@string/tab_channel"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="2dp"
+            android:text="@string/tab_date"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="2dp"
+            android:text="@string/tab_playlist"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:paddingBottom="2dp"
+            android:text="@string/tab_personal"
+            android:textSize="10sp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

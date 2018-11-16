@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_remove_load_list_adapter"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:contentDescription="@string/icon_remove"
+        app:srcCompat="@drawable/ic_remove_circle_outline" />
+
+    <LinearLayout
+        android:id="@+id/ll_core_load_list_adapter"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title_load_list_adapter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:minLines="2"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:textSize="18sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_parent_load_list_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginStart="5dp"
+                android:gravity="start"
+                android:maxLines="1"
+                android:minLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_category_load_list_adapter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_pubdate_load_list_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="5dp"
+                android:gravity="end"
+                android:minLines="1"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_arrow_load_list_adapter"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:contentDescription="@string/icon_go"
+        app:srcCompat="@drawable/ic_chevron_right"/>
+
+</LinearLayout>
