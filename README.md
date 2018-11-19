@@ -19,4 +19,4 @@ Directory Tree
 
 Snapshot
 ---
-[click for android snapshot](https://www.dropbox.com/sh/a970rnj32slztha/AABy6oW4_eyuFoqiL21O3VaIa "android's snapshot")
+[click me for android snapshot](https://www.dropbox.com/sh/a970rnj32slztha/AABy6oW4_eyuFoqiL21O3VaIa "android's snapshot")
