@@ -1,0 +1,20 @@
+[
+  {
+    "parent": "http://www.nhk.or.jp/r-news/index.html",
+    "title": "NHKラジオニュース",
+    "link": "http://www.nhk.or.jp/r-news/podcast/nhkradionews.xml",
+    "description": "NHKラジオニュースをいつでもどこでもお聞きになれるサービスです"
+  },
+  {
+    "parent": "http://www.tv-asahi.co.jp/ann",
+    "title": "ANNニュース　最新ニュース",
+    "link": "https://www.tv-asahi.co.jp/rss/ann/annnews.xml",
+    "description": "ANNニュースはテレビ朝日系列26局の情報をもとに発信する全国ニュースです"
+  },
+  {
+    "parent": "http://www.fnn-news.com/",
+    "title": "FNNヘッドラインニュース",
+    "link": "http://rss.fnn-news.com/fnn_news.xml",
+    "description": "フジテレビ系列で放送したニュース、天気予報、コラムのほか、お台場の様子を公開"
+  }
+]
