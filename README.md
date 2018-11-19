@@ -14,4 +14,5 @@ Directory Tree
   * model : data model
   * orphanage : abandoned codes
   * adapter : customised list view
+  * assets : sqlite stuff
 * values : shared values of colors and strings
