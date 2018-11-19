@@ -16,3 +16,7 @@ Directory Tree
   * adapter : customised list view
   * assets : sqlite stuff
 * values : shared values of colors and strings
+
+Snapshot
+---
+[click for android snapshot](https://www.dropbox.com/sh/a970rnj32slztha/AABy6oW4_eyuFoqiL21O3VaIa "android's snapshot")
