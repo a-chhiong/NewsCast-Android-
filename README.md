@@ -1,7 +1,8 @@
 `NewsCast Android version`
 ===
       Android Studio 3.5.1 and Java 7
-      Simulation Ready!
+      Simulation Ready (except for Firebase).
+
 
 Directory Tree
 ---
