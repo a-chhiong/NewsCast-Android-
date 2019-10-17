@@ -1,7 +1,7 @@
 `NewsCast Android version`
 ===
-      this is not a full / runnable source code, but the very crucial part of it.
-      to know how it actually works, please message me for more details.
+      Android Studio 3.5.1 and Java 7
+      Simulation Ready!
 
 Directory Tree
 ---
